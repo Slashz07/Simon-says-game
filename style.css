@@ -1,0 +1,43 @@
+body{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  margin: 2rem;
+}
+.btn1{
+  background-color: red;
+}
+.btn2{
+  background-color: yellow;
+}
+.btn3{
+  background-color: blue;
+}
+.btn4{
+  background-color: green;
+}
+.blink {
+  animation: blink-animation 0.3s infinite alternate;
+}
+
+@keyframes blink-animation {
+  from {
+    background-color: inherit;
+    /* Initial background color */
+  }
+
+  to {
+    background-color: grey;
+    /* Blink color */
+  }
+}
